@@ -2,6 +2,7 @@
 import { ref } from "vue";
 import Keyframes from "./components/Keyframes.vue";
 import ElementsTransition from "./components/ElementsTransition.vue";
+import Group from "./components/Group.vue";
 
 const card = ref(false);
 const card2 = ref(false);
@@ -9,6 +10,7 @@ const card2 = ref(false);
 
 <template>
   <div class="p-4 min-h-screen w-full bg-base-300">
+    <Group />
     <ElementsTransition />
     <Keyframes />
     <div class="flex">
